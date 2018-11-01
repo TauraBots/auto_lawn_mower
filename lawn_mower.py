@@ -11,7 +11,7 @@ class Dimensions:
 class Mower:   
     def __init__(self,size):
         self.size = Dimensions(size,size)
-        self.speed = 1
+        self.speed = 0.5
         self.turn_time = 3
         self.tax = 2/3
 
@@ -19,7 +19,7 @@ class Field():
     def __init__(self,x,y):
         self.size = Dimensions(x,y)
     def __str__(self):
-        return "Field:\n" + str(size)
+        return "Field:\n" + str(self.size)
                   
 class Way:
     def __init__(self,lm,field):
@@ -67,14 +67,14 @@ class Way:
     def __str__(self):
         string = ("Way: \n"
                   + "Repetitions: " + str(self.count) + "\n"
-                  + "Distance: " + str(self.dist) + "meters\n"
+                  + "Distance: " + str(self.dist) + "m\n"
                   + "Time: ")
         if self.time<60:
-            string+= str(self.time) +" seconds\n"
+            string+= str(self.time) +" sec\n"
         elif way.time >= 60 and self.time/60<60:
-            string+= str(self.time/60) + " minutes\n"
+            string+= str(self.time/60) + "min\n"
         else:
-            string+= str(self.time/3600) + " hours\n"
+            string+= str(self.time/3600) + "h\n"
         
         return string
         
