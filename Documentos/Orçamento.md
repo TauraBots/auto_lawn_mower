@@ -14,3 +14,7 @@
 * GPS
 * Giroscópio
 * Acelerômetro
+* Sensor de Cor
+* Sensor Ultrasônico
+* Módulo LoRa x5
+* Sensor de Efeito Hall
