@@ -1,12 +1,12 @@
 # Orçamento
 
 * Cortador de Grama a Gasolina
-* Motores 150W x2
-* Baterias x3
+* Motores 150W **x2**
+* Baterias **x3**
 * Alternador
-* Ponte H 43A x3
-* Rodas x2
-* Rodas Bobas x2
+* Ponte H 43A **x3**
+* Rodas **x2**
+* Rodas Bobas **x2**
 * Arduino Uno
 * RaspBerry Pi
 * Dynamixel
@@ -16,5 +16,5 @@
 * Acelerômetro
 * Sensor de Cor
 * Sensor Ultrasônico
-* Módulo LoRa x5
+* Módulo LoRa **x5**
 * Sensor de Efeito Hall
