@@ -4,9 +4,9 @@ grama com motor a gasolina convencional, para que consiga cumprir seu objetivo s
 
 ## Materiais:
 * **Cortador de grama:** Um cortador de grama a gasolina, onde será embarcada a inteligência para automação. A escolha
-de um motor a gasolina, ao invés de um elétrico deve-se ao fator de autonomia, como o objetivo do projeto exige que o
+de um motor a gasolina, ao invés de um elétrico deve-se ao fator autonomia, como o objetivo do projeto exige que o
 cortador não fique ligado através de um cabo, mas sim que tenha sua navegação irrestrita, escolher um motor a
-combustão é o mais inteligente, visando a economia em baterias, a facilidade de reabastecimento e a diminuição do peso
+combustão é o mais inteligente, visando a economia em baterias, a facilidade de reabastecimento e a redução do peso
 do projeto.
 
 * **Motores:** Serão o que exerce a navegação do cortador, devem ter torque suficiente para movê-lo em terrenos
@@ -40,9 +40,10 @@ cenários onde ela possa ficar exposta e ferir o operador.
 
 * **Sensor de cor:** Permitirá o reconhecimento do terreno, servindo como redundância em caso de o cortador sair da área de atuação.
 
-* **Sensor ultrasônico:** ...
+* **Sensor ultrasônico:** Será utilizado para leitura do volume de grama no coletor.
 
 * **Módulo LoRa:** Responsável pela capacidade de o cortador saber onde se encontra na área delimitada para corte com uma precisão
 maior que a do GPS
 
-* **Sensor de Efeito Hall:** ...
+* **Sensor de efeito Hall:** Necessário para realizar o feedback da rotação dos motores, tanto dá hélice, para controle de injeção
+de combustível, quanto dos motores de navegação, para termos precisão na odometria.
